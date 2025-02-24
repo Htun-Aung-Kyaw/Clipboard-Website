@@ -59,7 +59,7 @@ header{
     background-image: url("./images/bg-header-mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     font-size: 1rem;
 }
@@ -179,6 +179,7 @@ footer > ul > li{
     header{
         font-size: 1.3rem;
         background-image: url('./images/bg-header-desktop.png');
+        margin-bottom: 30px;
     }
     header a{
         font-size: initial;
@@ -187,7 +188,26 @@ footer > ul > li{
         width: 200px;
         height: 200px;
     }
+    .section-1{
+        justify-content: space-around;
+    }
+    .section-1 > .image-computer{
+        margin-left: -160px;
+    }
+    .section-1 .image-computer img{
+        width: 560px;
+        height: 430px;
+    }
     .section-3 > .tools > *{
         flex-basis: 20%;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .section-1{
+        justify-content: center;
+    }
+    .section-1 > .image-computer{
+        margin-left: unset;
     }
 }
