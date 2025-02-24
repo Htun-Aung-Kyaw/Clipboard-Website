@@ -115,6 +115,12 @@ header > img {
     font-size: 1.1rem;
     margin-top: -1rem;
 }
+.section-4 .partner-img{
+    background-color: black;
+}
+.section-4 .partner-img img{
+    width: 100px;
+}
 .section-5{
     padding: 2rem 0;
 }
