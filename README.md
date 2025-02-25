@@ -4,8 +4,6 @@
 
 This is written in mobile first approach.
 
-***Float Left and Clear Both is used for layout***
-
 ### Here is [live demo](https://clipboard-website-zeta.vercel.app/)
 
 ### Preview
